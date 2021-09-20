@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 24px;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: 'Playfair Display', serif;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+h1{
+  color: #ddd;
+  font-family: 'Playfair Display', serif;
+  font-size: 90px;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+p{
+  margin: 0px 32px 90px 32px;
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+}
