@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+/*from w3school*/
 .navbar {
   overflow: hidden;
   background-color: #333;
@@ -55,5 +57,5 @@ h1{
 p{
   margin: 0px 32px 90px 32px;
   font-family: 'Playfair Display', serif;
-  font-size: 30px;
+  font-size: 25px;
 }
